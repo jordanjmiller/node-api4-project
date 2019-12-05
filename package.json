@@ -4,7 +4,8 @@
   "description": "Guided Project for Web API-III Module",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon index.js"
+    "server": "nodemon index.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,11 +18,13 @@
   },
   "homepage": "https://github.com/LambdaSchool/webapi-iii-guided-solution#readme",
   "devDependencies": {
+    "dotenv": "^8.2.0",
     "nodemon": "^1.19.4"
   },
   "dependencies": {
     "express": "^4.17.1",
     "knex": "^0.20.1",
     "sqlite3": "^4.1.0"
-  }
+  },
+  "license": "ISC"
 }
