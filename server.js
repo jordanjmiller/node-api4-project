@@ -1,6 +1,6 @@
 const express = require('express'); // importing a CommonJS module
 
-require('dotenv').config();
+// require('dotenv').config();
 
 const hubsRouter = require('./hubs/hubs-router.js');
 
